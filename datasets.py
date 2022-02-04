@@ -14,7 +14,7 @@ from tree_Operate import *
 logger = logging.getLogger(__name__)
 
 
-#词对象
+#word object
 class wordObj(object):
     def __init__(self,sen_id=-1,word_id_doc=-1,word_id_sen=-1,word='',pos='',parent_sen=-1,dep='',isPred='',argus=[]):
         self.sen_id = sen_id
